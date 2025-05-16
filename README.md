@@ -1,27 +1,34 @@
 # 📝 Nawetly - Notes App
 
-**Nawetly** is a clean, fast, and lightweight mobile app for taking and managing notes. Designed with simplicity and elegance in mind, Nawetly helps users capture ideas, tasks, and reminders anytime, anywhere.
+**Nawetly** is a clean and minimal notes app built with Flutter. It allows users to create, edit, and manage notes with a focus on speed and simplicity. Whether it's a quick thought, a task, or a reminder — Nawetly helps you keep it all in one place.
 
-## 📱 Features
+---
 
-- 📝 Add, edit, and delete notes
-- 🔍 Search and filter through your notes
-- 🗃️ Notes are stored using Hive (local database)
-- ⚡ Fast and smooth performance
-- 🌙 Clean and minimal UI with dark mode support
-- 🧠 Built with Bloc for scalable and maintainable state management
+## 🚀 Features
+
+- 📝 Create, edit, and delete notes
+- 🎨 Choose a color for each note
+- 📦 Local storage using Hive database
+- 🧠 Simple and predictable state management using Cubit
+- 🌓 Light and dark mode compatibility
+- 💡 Friendly, intuitive, and responsive UI
+
+---
 
 ## 🛠️ Built With
 
-- **Flutter** – UI toolkit for building natively compiled apps
-- **Hive** – Lightweight key-value database for Flutter
-- **Bloc** – Predictable state management
-- **Dart** – Programming language for Flutter
+- **Flutter** – Cross-platform UI toolkit
+- **Hive** – Lightweight NoSQL database for local storage
+- **Cubit (from Bloc)** – State management
+- **Dart** – Main programming language
 
-## 📂 Project Structure
+---
 
+## 📁 Project Structure
+
+```plaintext
 lib/
-├── cubits/                      # Cubit logic (notes_cubit and states)
+├── cubits/                      # Cubit logic (state management)
 │   ├── notes_cubit.dart
 │   └── notes_states.dart
 │
@@ -29,7 +36,7 @@ lib/
 │   ├── note_model.dart
 │   └── note_model.g.dart
 │
-├── pages/                       # Screens/pages
+├── pages/                       # Screens
 │   ├── add_note_page.dart
 │   ├── edit_note_page.dart
 │   └── notes_page_view.dart
@@ -48,6 +55,5 @@ lib/
 │   ├── notes_page_app_bar.dart
 │   └── text_form_field.dart
 │
-├── constants.dart               # App constants
-└── main.dart                    # App entry point
-
+├── constants.dart               # App constants (colors, keys, etc.)
+└── main.dart                    # Entry point of the application
