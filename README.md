@@ -20,3 +20,34 @@
 
 ## 📂 Project Structure
 
+lib/
+├── cubits/                      # Cubit logic (notes_cubit and states)
+│   ├── notes_cubit.dart
+│   └── notes_states.dart
+│
+├── models/                      # Note model and Hive adapter
+│   ├── note_model.dart
+│   └── note_model.g.dart
+│
+├── pages/                       # Screens/pages
+│   ├── add_note_page.dart
+│   ├── edit_note_page.dart
+│   └── notes_page_view.dart
+│
+├── widgets/                     # Reusable UI components
+│   ├── add_note_app_bar.dart
+│   ├── add_note_button.dart
+│   ├── add_note_page_app_bar.dart
+│   ├── app_bar_icon.dart
+│   ├── color_item.dart
+│   ├── colors_list_view.dart
+│   ├── connect_with_me.dart
+│   ├── no_notes_yet.dart
+│   ├── note_card.dart
+│   ├── notes_list_view.dart
+│   ├── notes_page_app_bar.dart
+│   └── text_form_field.dart
+│
+├── constants.dart               # App constants
+└── main.dart                    # App entry point
+
