@@ -34,13 +34,6 @@ class NotesCubit extends Cubit<NotesStates> {
     emit(NotesLoadedState(notes: updatedNotes));
   }
 
-  // void deleteNote(dynamic noteId) {
-  //   final box = Hive.box<NoteModel>('notesBox');
-  //   box.delete(noteId);
-  //   final updatedNotes = box.toMap();
-  //   emit(NotesLoadedState(notes: updatedNotes));
-  // }
-
   void updateNote(int key, NoteModel note) {
     final box = Hive.box<NoteModel>('notesBox');
     box.put(key, note);
