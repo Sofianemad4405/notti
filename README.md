@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📝 Nawetly - Notes App
 
 **Nawetly** is a clean and minimal notes app built with Flutter. It allows users to create, edit, and manage notes with a focus on speed and simplicity. Whether it's a quick thought, a task, or a reminder — Nawetly helps you keep it all in one place.
